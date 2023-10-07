@@ -1,0 +1,28 @@
+algorithm count(vowel,spaces,word,paragraph and dot)
+
+read (vowelCount, wordCount, spaceCount,  paragraphCount , dot) ;
+begin
+ vowelCount =0 ;
+ wordCount = 0 ;
+ spaceCount = 0 ;
+ paragraphCount = 0 ;
+ dotCount =0 ;
+
+For 
+    If character is ('a','i','o','u','e','y') ;
+         vowelCount = 1 ;
+    If character is (" ")  ;
+         spaceCount = 1 ;
+    If character is ('\n') ;
+         paragraphCount = 1 ;
+    If character is ((alphabet character) ;
+         wordCount = 1 ;
+		
+	If character is ('.') ;
+	     dotCount =1 ;
+	
+		end if
+
+ return 
+ vowelCount, wordCount, spaceCount, and paragraphCount,dotCount
+end
